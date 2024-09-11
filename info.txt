@@ -1,0 +1,30 @@
+ssh-keygen -t ed25519 -C "shari19032005@gmail.com"
+
+git clone git@github.com:Hariprasath191/demo-repo.git
+
+view hidden files :
+    Get-ChildItem -Force
+    more : 
+        Get-ChildItem -Force | Format-List *
+
+git status
+
+git add . / git add index.html
+
+git commit -m "Adding index.html" -m "some desription"
+
+git config --global user.email "shari19032005@gmail.com"
+
+git push:
+    git push origin master
+
+
+to make any thing:
+    git init
+
+    git remote add origin ssh@gmail.com
+
+    git remote -v 
+
+    git push -u origin master
+     - git push
