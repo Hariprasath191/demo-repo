@@ -28,3 +28,7 @@ to make any thing:
 
     git push -u origin master
      - git push
+
+git branch :
+    git checkout -b feature-readme-instructions
+    git checkout feature-readme-instructions
